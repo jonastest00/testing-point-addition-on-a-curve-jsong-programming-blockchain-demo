@@ -1,8 +1,9 @@
 from unittest import TestCase
+from ecc import FieldElement, Point
 
 class ECCTest(TestCase):
 
-        def test_add1(self):
+    def test_add1(self):
         # tests the following additions on curve y^2=x^3-7 over F_223:
         # (192,105) + (17,56)
         # (47,71) + (117,141)
